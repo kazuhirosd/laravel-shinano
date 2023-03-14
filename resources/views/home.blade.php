@@ -9,7 +9,7 @@
     <div class="row justify-content-center">
         <div class="col-xl-12">
             <div class="card">
-                <div class="card-header">{{ __('Dashboard') }}</div>
+                <div class="card-header">{{ __('曽田出勤表') }}</div>
 
                 <div class="card-body">
                     @if (session('status'))
@@ -18,7 +18,7 @@
                         </div>
                     @endif
 
-                    {{ __('You are logged in!') }}
+                    <a href="#" target="_blank">2023年3月出勤表</a>
                 </div>
             </div>
         </div>
