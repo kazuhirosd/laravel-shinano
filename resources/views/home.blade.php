@@ -9,7 +9,7 @@
     <div class="row justify-content-center">
         <div class="col-xl-12">
             <div class="card">
-                <div class="card-header">{{ __('曽田出勤表') }}</div>
+                <div class="card-header">{{ __('お知らせ') }}</div>
 
                 <div class="card-body">
                     @if (session('status'))
@@ -18,7 +18,7 @@
                         </div>
                     @endif
 
-                    <a href="#" target="_blank">2023年3月出勤表</a>
+                    <p>RMS基本情報登録ページを作成しています。</p>
                 </div>
             </div>
         </div>
