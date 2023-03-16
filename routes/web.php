@@ -20,3 +20,5 @@ Route::get('/', function () {
 Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+Route::get('/rms/edit', [App\Http\Controllers\RmsController::class, 'edit'])->name('rms.edit');
+Route::post('/rms/update', [App\Http\Controllers\RmsController::class, 'update'])->name('rms.update');
